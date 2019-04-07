@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NaveenAutomation_5thAprilChallenge">
+
+  
+  <test name="HomePage">
+  <classes>
+      <class name="com.zoopa.TestCases.HomePageTests"></class>  
+    </classes>
+  </test>
+  
+  <test name="SearchResultPage">
+  <classes>
+     <class name="com.zoopa.TestCases.SearchPageTest"></class>
+    </classes>
+  </test>
+  
+  <test name="PropertyPage">
+   <classes>
+      <class name="com.zoopa.TestCases.PropertyPageTest"></class>
+    </classes>
+  </test>
+  
+  <test name="AgentDetails">
+  <classes>
+      <class name="com.zoopa.TestCases.AgentDetailsPageTest"></class>
+    </classes>
+  
+  </test>
+</suite> <!-- Suite -->

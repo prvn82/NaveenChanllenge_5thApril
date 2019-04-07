@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="SearchTestimng(failed)">
+    <classes>
+      <class name="com.zoopa.TestCases.PropertyPageTest">
+        <methods>
+          <include name="validateAgentPhNo"/>
+          <include name="init"/>
+          <include name="validateLogoTest"/>
+          <include name="Setup"/>
+          <include name="ValidateAgentDetails"/>
+          <include name="validateAgentNameTest"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.PropertyPageTest -->
+      <class name="com.zoopa.TestCases.SearchPageTest">
+        <methods>
+          <include name="printPriceListDescendingOrderTest"/>
+          <include name="click_On_5th_Property_AND_Verify"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.SearchPageTest -->
+      <class name="com.zoopa.TestCases.HomePageTests">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.HomePageTests -->
+      <class name="com.zoopa.TestCases.AgentDetailsPageTest">
+        <methods>
+          <include name="ValidateAgentName"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.AgentDetailsPageTest -->
+    </classes>
+  </test> <!-- SearchTestimng(failed) -->
+</suite> <!-- Failed suite [Suite] -->

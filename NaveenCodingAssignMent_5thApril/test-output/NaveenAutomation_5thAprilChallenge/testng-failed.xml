@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NaveenAutomation_5thAprilChallenge]">
+  <test name="HomePage(failed)">
+    <classes>
+      <class name="com.zoopa.TestCases.AgentDetailsPageTest">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.AgentDetailsPageTest -->
+      <class name="com.zoopa.TestCases.HomePageTests">
+        <methods>
+          <include name="ValidateHomePagetitle"/>
+          <include name="init"/>
+          <include name="EnterSearchTest"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.HomePageTests -->
+      <class name="com.zoopa.TestCases.PropertyPageTest">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.PropertyPageTest -->
+      <class name="com.zoopa.TestCases.SearchPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.SearchPageTest -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+  <test name="PropertyPage(failed)">
+    <classes>
+      <class name="com.zoopa.TestCases.AgentDetailsPageTest">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.AgentDetailsPageTest -->
+      <class name="com.zoopa.TestCases.HomePageTests">
+        <methods>
+          <include name="init"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.HomePageTests -->
+      <class name="com.zoopa.TestCases.PropertyPageTest">
+        <methods>
+          <include name="validateAgentPhNo"/>
+          <include name="validateLogoTest"/>
+          <include name="Setup"/>
+          <include name="ValidateAgentDetails"/>
+          <include name="validateAgentNameTest"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.PropertyPageTest -->
+      <class name="com.zoopa.TestCases.SearchPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.SearchPageTest -->
+    </classes>
+  </test> <!-- PropertyPage(failed) -->
+  <test name="AgentDetails(failed)">
+    <classes>
+      <class name="com.zoopa.TestCases.AgentDetailsPageTest">
+        <methods>
+          <include name="ValidateAgentName"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.AgentDetailsPageTest -->
+      <class name="com.zoopa.TestCases.HomePageTests">
+        <methods>
+          <include name="init"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.HomePageTests -->
+      <class name="com.zoopa.TestCases.PropertyPageTest">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.PropertyPageTest -->
+      <class name="com.zoopa.TestCases.SearchPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.zoopa.TestCases.SearchPageTest -->
+    </classes>
+  </test> <!-- AgentDetails(failed) -->
+</suite> <!-- Failed suite [NaveenAutomation_5thAprilChallenge] -->
